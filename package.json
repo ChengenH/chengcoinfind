@@ -1,0 +1,37 @@
+{
+  "name": "@chengenh/coinfind",
+  "version": "1.0.9",
+  "description": "",
+  "type": "module",
+  "main": "coin_find.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChengenH/chengcoinfind"
+  },
+  "website": "https://github.com/ChengenH/chengcoinfind.git",
+  "keywords": [
+    "binance",
+    "client",
+    "arbitrim"
+  ],
+  "author": "ChengenH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChengenH/chengcoinfind/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/ChengenH/chengcoinfind#readme",
+  "dependencies": {
+    "@moncici/date-time-processor": "^1.0.3",
+    "@moncici/log": "^1.0.2",
+    "@moncici/proxy": "^1.0.3",
+    "@moncici/sleep": "^1.0.1",
+    "feishu-notifier": "^1.0.3"
+  }
+}
